@@ -20,15 +20,15 @@
 		}
 
 		.bw{
-		  -webkit-filter: saturate(0) contrast(0.75);
-		  -filter:saturate(0) contrast(0.75);
+		  -webkit-filter: saturate(0) contrast(0.75) sepia(1);
+		  -filter:saturate(0) contrast(0.75) sepia(1);
 
-		  opacity:.4;
+		  opacity:.8;
 		}
 
 		.bw:hover {
-		  -webkit-filter: saturate(1) contrast(1);
-		  -filter:saturate(1) contrast(1);
+		  -webkit-filter: saturate(1) contrast(1) sepia(0);
+		  -filter:saturate(1) contrast(1) sepia(0);
 
           -webkit-transition: .1s ease-in-out;
 		  transition: .1s ease-in-out;
