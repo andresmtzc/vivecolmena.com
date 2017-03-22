@@ -20,8 +20,8 @@
 		}
 
 		.bw{
-		  -webkit-filter: saturate(0) contrast(0.75) sepia(.5);
-		  -filter:saturate(0) contrast(0.75) sepia(.5);
+		  -webkit-filter: saturate(0) contrast(0.75) sepia(.2);
+		  -filter:saturate(0) contrast(0.75) sepia(.2);
 
 		  opacity:.8;
 		}
