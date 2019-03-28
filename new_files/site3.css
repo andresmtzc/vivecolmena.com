@@ -11839,6 +11839,7 @@ footer {
 }
 #header::before {
 	display: table; content: "";
+	padding:20px;
 }
 #page::before {
 	display: table; content: "";
