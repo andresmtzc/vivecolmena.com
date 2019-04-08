@@ -9980,7 +9980,7 @@ nav ol {
 	height: 0px; overflow: hidden;
 }
 #canvas {
-	padding: 25px;
+	
 }
 #header {
 	padding-bottom: 0px;
@@ -9994,6 +9994,7 @@ nav ol {
 }
 #headerWrapper {
 	position: relative; z-index: 999;
+	padding: 25px 20px 0px 25px;
 }
 #logo {
 	float: left;
