@@ -9987,7 +9987,7 @@ nav ol {
 	border-bottom: 1px solid rgb(242, 242, 240);
 }
 #page {
-	margin: 25px 0px 0px; width: 100%; position: relative; max-width: 99%;
+	margin: 25px 0px 0px; width: 100%; position: relative;
 }
 .collection-type-gallery #page {
 	margin: 0px !important;
