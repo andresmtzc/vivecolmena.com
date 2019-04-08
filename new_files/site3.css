@@ -9987,7 +9987,7 @@ nav ol {
 	border-bottom: 1px solid rgb(242, 242, 240);
 }
 #page {
-	margin: 25px 0px 0px; width: 100%; position: relative;
+ width: 100%; position: relative;
 }
 .collection-type-gallery #page {
 	margin: 0px !important;
@@ -10005,7 +10005,7 @@ nav ol {
 	float: right;
 }
 .site-alignment-center #page {
-	margin: 25px auto 0px;
+
 }
 .extra-wrapper :not(.empty).sqs-layout {
 	margin: 0px auto 30px; max-width: 1100px;
