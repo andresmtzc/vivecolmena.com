@@ -1790,7 +1790,7 @@ html.blogapp .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
 	float: left;
 }
 [class*=sqs-col] .sqs-block {
-	padding-right: 17px; padding-left: 17px;
+	
 }
 [class*=sqs-col]:last-child {
 	padding-right: 0px;
@@ -9980,20 +9980,21 @@ nav ol {
 	height: 0px; overflow: hidden;
 }
 #canvas {
-	padding: 25px;
+	
 }
 #header {
 	padding-bottom: 0px;
 	border-bottom: 1px solid rgb(242, 242, 240);
 }
 #page {
-	margin: 25px 0px 0px; width: 100%; position: relative; max-width: 1100px;
+ width: 100%; position: relative;
 }
 .collection-type-gallery #page {
 	margin: 0px !important;
 }
 #headerWrapper {
 	position: relative; z-index: 999;
+	padding: 25px 20px 0px 25px;
 }
 #logo {
 	float: left;
@@ -10005,7 +10006,7 @@ nav ol {
 	float: right;
 }
 .site-alignment-center #page {
-	margin: 25px auto 0px;
+
 }
 .extra-wrapper :not(.empty).sqs-layout {
 	margin: 0px auto 30px; max-width: 1100px;
@@ -11842,7 +11843,7 @@ footer {
 }
 #page::before {
 	display: table; content: "";
-	padding:20px;
+	
 }
 #footer::before {
 	display: table; content: "";
