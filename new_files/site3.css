@@ -9984,7 +9984,7 @@ nav ol {
 }
 #header {
 	padding-bottom: 0px;
-	border-bottom: 1px solid rgb(242, 242, 240);
+	border-bottom: 0px solid rgb(242, 242, 240);
 }
 #page {
 	margin: 25px 0px 0px; width: 100%; position: relative; max-width: 1100px;
