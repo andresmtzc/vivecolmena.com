@@ -12287,7 +12287,7 @@ body:not(.has-banner-image).transparent-header #header {
 	position: relative; background-color: rgb(240, 214, 197); -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
 }
 #preFooter {
-	background-color: rgb(255, 255, 255); -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
+	background-color: rgb(240, 214, 197); -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
 }
 #preFooter {
 	color: rgb(0, 0, 0);
@@ -12338,7 +12338,7 @@ body:not(.has-banner-image).transparent-header #header {
 	opacity: 0; transform: translate3d(0px, 12px, 0px); -webkit-transform: translate3d(0, 12px, 0); -moz-transform: translate3d(0, 12px, 0); -o-transform: translate3d(0, 12px, 0);
 }
 #footer {
-	background-color: rgb(255, 255, 255); -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
+	background-color: rgb(240, 214, 197); -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
 }
 #footer .html-block a {
 	color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
