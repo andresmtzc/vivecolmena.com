@@ -1,3 +1,19 @@
+.main-nav a {
+	color: rgb(255, 255, 255);
+}
+.main-nav .active-link > a {
+	color: rgb(149, 91, 51);
+}
+.main-nav a:hover {
+	color: rgb(149, 91, 51);
+}
+
+#mobileNav .main-nav {
+	margin-right: 0px;
+}
+
+
+
 @font-face {
 	font-family: squarespace-ui-font;
 	src: url(https://static.squarespace.com/universal/fonts/squarespace-ui-font.eot?#iefix) format("embedded-opentype"), url(https://static.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font) format("svg"), url(https://static.squarespace.com/universal/fonts/squarespace-ui-font.woff) format("woff"), url(https://static.squarespace.com/universal/fonts/squarespace-ui-font.ttf) format("truetype");
@@ -12494,7 +12510,7 @@ li.filter {
 	display: block;
 }
 #logoImage img {
-	width: auto; height: auto; max-height: 100px; max-width: 150px;
+	width: auto; height: auto; max-height: 100px; max-width: 200px;
 }
 #siteTitle {
 	margin: 0px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1em; letter-spacing: 2px; padding-top: 0px; padding-bottom: 0px; font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 20px; font-style: normal; font-weight: 600;
