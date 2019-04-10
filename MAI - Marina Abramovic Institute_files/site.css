@@ -12401,7 +12401,7 @@ body:not(.has-banner-image).transparent-header #header {
 	color: rgb(0, 0, 0);
 }
 #page {
-	margin: auto; padding: 96px 32px; width: auto; max-width: 1020px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
+	margin: auto; padding: 96px 32px; width: auto; max-width: 1200px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto;
 }
 #content {
 	width: 100%; display: block;
