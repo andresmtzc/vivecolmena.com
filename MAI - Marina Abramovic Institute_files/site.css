@@ -14566,7 +14566,7 @@ body:not(.collection-type-gallery).has-promoted-gallery .promoted-gallery-wrappe
 	width: auto; height: auto; max-height: 100px; max-width: 300%;
 }
 #siteTitleWrapper #logoImage img {
-	width: auto; height: auto; max-height: 50px; max-width: 100%;
+	width: auto; height: auto; max-height: 100px; max-width: 300%;
 }
 #logoWrapper {
 	width: 65px;
