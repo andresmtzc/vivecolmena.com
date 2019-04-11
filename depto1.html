@@ -54,15 +54,24 @@ var INTERVAL = 1; // in seconds
 var INCREMENT = 0.0133092701728608; // increase per tick
 var START_VALUE = 3950000; // initial value when it's the start date
 var count = 0;
+function addCommas(str){
+    var arr,int,dec;
+    str += '';
+
+    arr = str.split('.');
+    int = arr[0] + '';
+    dec = arr.length>1?'.'+arr[1]:'';
+    return int.replace(/(\d)(?=(\d{3})+$)/g,"$1,") + '.' + parseFloat(dec).toFixed(2).split('.')[1];
+}
 
 window.onload = function()
 {
  var msInterval = INTERVAL * 1000;
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
- document.getElementById('counter').innerHTML = ('$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
- setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count;", msInterval);
- 
+ document.getElementById('counter').innerHTML = addCommas(count);
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = addCommas(count);", msInterval);
+
 }
 </SCRIPT>
 
