@@ -13037,16 +13037,16 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill.has-promoted-
 	color: rgb(0, 0, 0); text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
 }
 #headerNav nav a:hover {
-	color: rgb(240, 214, 197);
+	color: rgb(225, 160, 142);
 }
 #sidecarNav nav a:hover {
-	color: rgb(240, 214, 197);
+	color: rgb(225, 160, 142);
 }
 #headerNav nav a:hover:visited {
-	color: rgb(240, 214, 197);
+	color: rgb(225, 160, 142);
 }
 #sidecarNav nav a:hover:visited {
-	color: rgb(240, 214, 197);
+	color: rgb(225, 160, 142);
 }
 #headerNav nav .folder-toggle:hover {
 	color: rgb(226, 0, 26);
