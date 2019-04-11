@@ -51,10 +51,10 @@ type="text/css"><!-- <![endif]--> <LINK href="/s/MAIcon.png" rel="apple-touch-ic
 <SCRIPT type="text/javascript">
 var START_DATE = new Date("April 11, 2019 14:00:00"); // put in the starting date here
 var INTERVAL = 1; // in seconds
-var INCREMENT = 0.0133092701728608; // increase per tick
+var INCREMENTE = 0.0133092701728608; // increase per tick
+var INCREMENT = ('$' + INCREMENTE.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')); // increase per tick
 var START_VALUE = 3950000; // initial value when it's the start date
-var zero = 0
-var count = ('$' + zero.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
+var count = 0;
 
 window.onload = function()
 {
@@ -250,7 +250,7 @@ data-block-type="21">
 data-block-type="2">
 <DIV class="sqs-block-content">
 <P style="text-align: center; white-space: pre-wrap;" data-rte-preserve-empty="true"></P>
-<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><H2 id="counter" style="text-align: center; white-space: pre-wrap;"></H2></P>
+<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><H2 id="counter" style="text-align: center; white-space: pre-wrap; margin-top:-20px"></H2></P>
 
 
 <H2 style="text-align: center; white-space: pre-wrap;"><STRONG><small>DEPARTAMENTO</small> UNO</STRONG><BR>149M² INTERIORES + 47M² EXTERIORES</H2>
