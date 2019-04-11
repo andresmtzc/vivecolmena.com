@@ -60,8 +60,7 @@ window.onload = function()
  var msInterval = INTERVAL * 1000;
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
- ( count.toFixed(2) )
- document.getElementById('counter').innerHTML = count;
+ document.getElementById('counter').innerHTML =  ( count.toFixed(2) );
  setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count;", msInterval);
 
 }
