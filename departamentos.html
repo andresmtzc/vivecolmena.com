@@ -61,7 +61,7 @@ window.onload = function()
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
  document.getElementById('counter').innerHTML =  ('$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
- setInterval("count += INCREMENT; document.getElementById('counter').innerHTML =  ('$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'))", msInterval);
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML =  '$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')", msInterval);
 
 }
 </SCRIPT>
