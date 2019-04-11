@@ -47,8 +47,24 @@ type="text/css"><!-- <![endif]--> <LINK href="/s/MAIcon.png" rel="apple-touch-ic
  
 <SCRIPT src="index_files/jquery-ui.min.js"></SCRIPT>
 
+<!-- <![COUNTER PRECIO]-->
+<SCRIPT type="text/javascript">
+var START_DATE = new Date("April 11, 2019 14:00:00"); // put in the starting date here
+var INTERVAL = 1; // in seconds
+var INCREMENT = 0.0133092701728608; // increase per tick
+var START_VALUE = 3950000; // initial value when it's the start date
+var count = 0;
 
+window.onload = function()
+{
+ var msInterval = INTERVAL * 1000;
+ var now = new Date();
+ count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
+ document.getElementById('counter').innerHTML =  ('$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML =  '$' + count.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')", msInterval);
 
+}
+</SCRIPT>
 
 
 
@@ -247,7 +263,7 @@ data-block-type="55" data-block-json='{"hSize":null,"floatDir":null,"collectionI
 
 
 
-
+<div id="counter"></div>
 
 
 
