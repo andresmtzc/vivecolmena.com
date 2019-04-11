@@ -61,7 +61,7 @@ window.onload = function()
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
  document.getElementById('counter').innerHTML = count.toLocaleString("en-US",{style:"currency", currency:"USD"});
- setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count.toLocaleString("en-US",{style:"currency", currency:"USD"});", msInterval);
+ setInterval("count.toLocaleString("en-US",{style:"currency", currency:"USD"}) += INCREMENT; document.getElementById('counter').innerHTML = count;", msInterval);
 }
 </SCRIPT>
 
