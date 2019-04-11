@@ -13055,16 +13055,16 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill.has-promoted-
 	color: rgb(226, 0, 26);
 }
 #headerNav nav .active > a {
-	color: rgb(226, 0, 26);
+	color: rgb(225, 160, 142);
 }
 #sidecarNav nav .active > a {
-	color: rgb(226, 0, 26);
+	color: rgb(225, 160, 142);
 }
 #headerNav nav .active > a:visited {
-	color: rgb(226, 0, 26);
+	color: rgb(225, 160, 142);
 }
 #sidecarNav nav .active > a:visited {
-	color: rgb(226, 0, 26);
+	color: rgb(225, 160, 142);
 }
 #headerNav nav .active > .folder-toggle {
 	color: rgb(226, 0, 26);
