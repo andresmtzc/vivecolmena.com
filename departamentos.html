@@ -46,6 +46,28 @@ type="text/css"><!-- <![endif]--> <LINK href="/s/MAIcon.png" rel="apple-touch-ic
 <SCRIPT src="index_files/jquery.min.js"></SCRIPT>
  
 <SCRIPT src="index_files/jquery-ui.min.js"></SCRIPT>
+
+<!-- <![COUNTER PRECIO]-->
+<SCRIPT type="text/javascript">
+var START_DATE = new Date("April 11, 2019 14:00:00"); // put in the starting date here
+var INTERVAL = 1; // in seconds
+var INCREMENT = 0.0133092701728608; // increase per tick
+var START_VALUE = 3950000; // initial value when it's the start date
+var count = 0;
+
+window.onload = function()
+{
+ var msInterval = INTERVAL * 1000;
+ var now = new Date();
+ count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
+ document.getElementById('counter').innerHTML = count;
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count;", msInterval);
+}
+</SCRIPT>
+
+
+
+
  
 <SCRIPT type="text/javascript">
 $(function(){
@@ -257,7 +279,7 @@ data-load="false"></DIV></A><!-- Products: Quick View -->
                 <A class="summary-read-more-link" href="./depto1">VER DEPARTAMENTO UNO →</A><!-- Metadata (Below Content) -->             
 <DIV class="summary-metadata-container summary-metadata-container--below-content">
 <DIV class="summary-metadata summary-metadata--primary"></DIV>
-<DIV class="summary-metadata summary-metadata--secondary"></DIV></DIV></DIV><!-- End .summary-content --> 
+<DIV class="summary-metadata summary-metadata--secondary"></DIV></DIV></DIV><!-- End .summary-content --> <div id="counter"></div>
         </DIV><!-- End .summary-item -->   
 
 <DIV class="&#10;          summary-item&#10;          summary-item-record-type-text&#10;          sqs-gallery-design-autogrid-slide&#10;          &#10;           summary-item-has-thumbnail&#10;           summary-item-has-excerpt&#10;          &#10;          summary-item-has-tags&#10;          summary-item-has-author&#10;          &#10;          "><!-- Thumbnail --> 
