@@ -53,7 +53,8 @@ var START_DATE = new Date("April 11, 2019 14:00:00"); // put in the starting dat
 var INTERVAL = 1; // in seconds
 var INCREMENT = 0.0133092701728608; // increase per tick
 var START_VALUE = 3950000; // initial value when it's the start date
-var count = 0;
+var zero = 0
+var count = ('$' + zero.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
 
 window.onload = function()
 {
@@ -249,7 +250,7 @@ data-block-type="21">
 data-block-type="2">
 <DIV class="sqs-block-content">
 <P style="text-align: center; white-space: pre-wrap;" data-rte-preserve-empty="true"></P>
-<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><div id="counter" style="text-align: center; margin-top:-15px;"></div></P>
+<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><H2 id="counter" style="text-align: center; white-space: pre-wrap;"></H2></P>
 
 
 <H2 style="text-align: center; white-space: pre-wrap;"><STRONG><small>DEPARTAMENTO</small> UNO</STRONG><BR>149M² INTERIORES + 47M² EXTERIORES</H2>
