@@ -60,7 +60,7 @@ window.onload = function()
  var msInterval = INTERVAL * 1000;
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
- document.getElementById('counter').innerHTML = count.toLocaleString("en-US",{style:"currency", currency:"USD"});
+ document.getElementById('counter').innerHTML = count;
  setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count;", msInterval);
 }
 </SCRIPT>
@@ -248,7 +248,7 @@ data-block-type="21">
 data-block-type="2">
 <DIV class="sqs-block-content">
 <P style="text-align: center; white-space: pre-wrap;" data-rte-preserve-empty="true"></P>
-<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><H2 id="counter" style="text-align: center; white-space: pre-wrap; margin-top:-20px;"></H2></P>
+<P style="text-align: center; white-space: pre-wrap;"><EM>Precio</EM><H2 id="counter" style="text-align: center; white-space: pre-wrap; margin-top:-20px;">$</H2></P>
 <!-- <![COUNTER PRECIO]-->
 
 <H2 style="text-align: center; white-space: pre-wrap;"><STRONG><small>DEPARTAMENTO</small> UNO</STRONG><BR>149M² INTERIORES + 47M² EXTERIORES</H2>
