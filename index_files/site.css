@@ -15181,7 +15181,9 @@ a:link {
 #item-543c37a1e4b08a84cfe6b0e5 .sqs-gallery-block-slideshow .sqs-gallery {
 	height: 600px !important;
 }
-
+.sqs-gallery-block-slideshow .sqs-gallery {
+	width: 100%;
+}
 #item-53fa7b03e4b0a52701b47f5e .banner-thumbnail-wrapper {
 	display: none;
 }
