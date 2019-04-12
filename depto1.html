@@ -89,7 +89,7 @@ window.onload = function()
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
  document.getElementById('counter').innerHTML = '~' + count.toFixed(2) + ' MDP';
- setInterval("count += INCREMENT; document.getElementById('counter').innerHTML ='~' + count.toFixed(2) + ' MDP';", msInterval);
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = '~' + count.toFixed(2) + ' MDP';", msInterval);
 
 }
 </SCRIPT>
