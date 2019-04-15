@@ -45,7 +45,7 @@ if(isset($_POST['email'])) {
     $error_message .= 'El "Apellido" que tecleaste no parece ser válido.<br />';
   }
    if(strlen($telephone) < 10) {
-    $error_message .= 'El "Celular" que tecleaste no parece ser válido.<br />';
+    $error_message .= 'El "Celular" que tecleaste no parece ser válido. Asegúrate de tener diez dígitos.<br />';
   }
   if(strlen($comments) < 2) {
     $error_message .= 'El "Mensaje" que tecleaste no parece ser válido.<br />';
