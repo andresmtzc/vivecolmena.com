@@ -23,8 +23,13 @@
 font-family: 'Bahnschrift Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Bahnschrift Regular'), url('./BAHNSCHRIFT 1.woff') format('woff');
+src: local('Bahnschrift Regular'),
+url(./BAHNSCHRIFT.eot?#iefix) format("embedded-opentype"),
+url('./BAHNSCHRIFT.woff') format("woff")
+url('./BAHNSCHRIFT.ttf') format("truetype"),
+url('./BAHNSCHRIFT.svg') format("svg");
 }
+
 
 
 
