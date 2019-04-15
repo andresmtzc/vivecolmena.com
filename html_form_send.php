@@ -9,7 +9,7 @@ if(isset($_POST['email'])) {
      
     function died($error) {
         // your error code can go here
-        echo "Lo sentimos, encontramos el siguiente error(es): ";
+        echo "Lo sentimos, encontramos los siguientes errores: ";
         echo "<br /><br />";
         echo $error."<br />";
         echo "Por favor regresa y vuelve a intentar.<br /><br />";
@@ -43,6 +43,9 @@ if(isset($_POST['email'])) {
   }
   if(!preg_match($string_exp,$last_name)) {
     $error_message .= 'El "Apellido" que tecleaste no parece ser válido.<br />';
+  }
+   if(strlen($telephone) < 10) {
+    $error_message .= 'El "Celular" que tecleaste no parece ser válido.<br />';
   }
   if(strlen($comments) < 2) {
     $error_message .= 'El "Mensaje" que tecleaste no parece ser válido.<br />';
