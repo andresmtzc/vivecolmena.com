@@ -16,6 +16,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('./BAHNSCHRIFT 1.woff') format('woff');
+}
+
+
+
 article {
 	display: block;
 }
