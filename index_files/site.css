@@ -25,7 +25,8 @@ font-style: normal;
 font-weight: normal;
 src: local('Bahnschrift Regular'),
 url('Bahnschrift Regular.eot?#iefix') format("embedded-opentype"),
-url('Bahnschrift Regular.woff') format("woff")
+url('Bahnschrift Regular.woff') format("woff"),
+url('Bahnschrift Regular.woff2') format("woff2"),
 url('Bahnschrift Regular.ttf') format("truetype"),
 url('Bahnschrift Regular.svg') format("svg");
 }
