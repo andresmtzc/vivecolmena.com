@@ -21,15 +21,13 @@
 
 @font-face {
 font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: url('Bahnschrift Regular.eot');
 src: local('Bahnschrift Regular'),
 url('Bahnschrift Regular.eot?#iefix') format("embedded-opentype"),
 url('Bahnschrift Regular.woff') format("woff"),
 url('Bahnschrift Regular.woff2') format("woff2"),
 url('Bahnschrift Regular.ttf') format("truetype"),
-url('Bahnschrift Regular.svg') format("svg");
+url('Bahnschrift Regular.svg#Bahnschrift') format("svg");
+src: url('Bahnschrift Regular.eot');
 }
 
 
