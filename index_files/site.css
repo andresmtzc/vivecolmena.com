@@ -16,7 +16,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	    font-family: "Bahnschrift Regular";
 	    src: local('Bahnschrift Regular'),
@@ -27,13 +26,6 @@
 	         url('https://vivecolmena.com/index_files/Bahnschrift Regular.svg#Bahnschrift') format('svg');
 	    src: url('https://vivecolmena.com/index_files/Bahnschrift Regular.eot');
 }
-
-
-@font-face {
-	src: url('https://vivecolmena.com/index_files/Bahnschrift.woff2');
-	font-family:'Bahnschrift Regular';
-}
-
 article {
 	display: block;
 }
