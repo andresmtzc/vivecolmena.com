@@ -23,6 +23,7 @@
 font-family: 'Bahnschrift Regular';
 font-style: normal;
 font-weight: normal;
+src: url('Bahnschrift Regular.eot');
 src: local('Bahnschrift Regular'),
 url('Bahnschrift Regular.eot?#iefix') format("embedded-opentype"),
 url('Bahnschrift Regular.woff') format("woff"),
