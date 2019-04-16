@@ -28,7 +28,16 @@
 	    src: url('https://vivecolmena.com/index_files/Bahnschrift Regular.eot');
 }
 
-
+@font-face {
+	    font-family: "Bahnschrift";
+	    src: local('Bahnschrift Regular'),
+	    	 url('https://vivecolmena.com/index_files/Bahnschrift Regular.woff') format('woff'),
+	         url('https://vivecolmena.com/index_files/Bahnschrift Regular.woff2') format('woff2'),
+	         url('https://vivecolmena.com/index_files/Bahnschrift Regular.ttf') format('truetype'),
+	         url('https://vivecolmena.com/index_files/Bahnschrift Regular.eot?#iefix') format('embedded-opentype'),
+	         url('https://vivecolmena.com/index_files/Bahnschrift Regular.svg#Bahnschrift') format('svg');
+	    src: url('https://vivecolmena.com/index_files/Bahnschrift Regular.eot');
+}
 
 
 
