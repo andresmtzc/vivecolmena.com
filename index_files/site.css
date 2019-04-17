@@ -33,6 +33,7 @@
 	     url('https://vivecolmena.com/index_files/Bahnschrift.svg'),
 	     url('https://vivecolmena.com/index_files/Bahnschrift.ttf');
 	font-family:'Bahnschrift Regular';
+	font-weight: 600;
 }
 article {
 	display: block;
