@@ -13037,16 +13037,16 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill.has-promoted-
 	border-radius: 300px; -webkit-border-radius: 300px;
 }
 #headerNav nav a {
-	color: white; text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
+	color: rgb(152,135,119); text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
 }
 #sidecarNav nav a {
-	color: white; text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
+	color: rgb(152,135,119); text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
 }
 #headerNav nav a:visited {
-	color: white; text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
+	color: rgb(152,135,119); text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
 }
 #sidecarNav nav a:visited {
-	color: white; text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
+	color: rgb(152,135,119); text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
 }
 #headerNav nav .folder-toggle {
 	color: white; text-transform: uppercase; line-height: 1em; letter-spacing: 1.26px; font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"; font-size: 10pt; font-style: normal; font-weight: 500; text-decoration: none;
