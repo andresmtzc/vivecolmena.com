@@ -12324,7 +12324,7 @@ body:not(.has-banner-image).transparent-header #header {
 	transition:0.25s ease-in-out 0.1s; -webkit-transition: all .25s ease-in-out .1s; -moz-transition: all .25s ease-in-out .1s; -o-transition: all .25s ease-in-out .1s;
 }
 .pre-footer-inner a {
-	color: rgb(0, 0, 0);
+	color: rgb(152, 135, 119);
 }
 .pre-footer-inner .sqs-block-html a {
 	border-bottom-color: rgba(0, 0, 0, 0.3); border-bottom-width: 1px; border-bottom-style: solid;
