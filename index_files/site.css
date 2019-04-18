@@ -9757,6 +9757,7 @@ body:not(.image-block-stack-dynamic-font-sizing) .sqs-block-image .design-layout
 }
 .sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link {
 	display: block;
+	text-align: center;
 }
 .sqs-block-summary-v2 .summary-item-record-type-event .summary-thumbnail-event-date {
 	display: table;
