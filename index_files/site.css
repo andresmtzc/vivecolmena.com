@@ -15480,15 +15480,20 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
 }
 #imageLogo
 {
-    background: url("./imgs/arquidromo.png");
-    transition:background-image 0.1s ease-in-out, color 0.1s ease-in-out;
     width:auto; 
     height:25px; 
     display: block; 
     margin: 0 auto;
 }
-#imageLogo:hover
-{
-    background: url("./imgs/arquidromo2.png");
-    transition:background-image 0.1s ease-in-out, color 0.1s ease-in-out;
+#imageLogo img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+#imageLogo img.top:hover {
+  opacity:0;
 }
