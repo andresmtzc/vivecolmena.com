@@ -10618,7 +10618,7 @@ body:not(.button-style-default).button-style-outline .sqs-editable-button-style 
 	border-width: 2px; border-style: solid; transition:background-color 0.1s linear, color 0.1s linear; -webkit-transition: 0.1s background-color linear, 0.1s color linear; -moz-transition: 0.1s background-color linear, 0.1s color linear; -o-transition: 0.1s background-color linear, 0.1s color linear;
 }
 body:not(.button-style-default).button-style-outline .sqs-editable-button {
-	color: rgb(0, 0, 0); background-color: transparent;
+	color: rgb(178, 122, 85); background-color: transparent;
 }
 body:not(.button-style-default).button-style-outline .sqs-editable-button-color {
 	color: rgb(0, 0, 0); background-color: transparent;
