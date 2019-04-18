@@ -13597,12 +13597,15 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
 }
 .sqs-block-summary-v2 a:link {
 	color: rgb(178, 122, 85);
+	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out; background-color: rgb(237, 237, 237); -webkit-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -moz-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -o-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out;
 }
 .sqs-block-summary-v2 a:visited {
 	color: rgb(178, 122, 85);
+	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out; background-color: rgb(237, 237, 237); -webkit-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -moz-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -o-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out;
 }
 .sqs-block-summary-v2 a:hover {
 	color: rgb(231, 150, 129);
+	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out; background-color: rgb(237, 237, 237); -webkit-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -moz-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out; -o-transition: background-color .1s 0s ease-in-out, color .1s 0s ease-in-out;
 }
 .sqs-block-summary-v2 .summary-metadata-item {
 	color: rgb(102, 102, 102);
