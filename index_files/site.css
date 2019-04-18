@@ -5556,13 +5556,13 @@ body:not(.event-thumbnails):not(.event-date-label) .eventlist-column-info {
 	margin: 0px 9px;
 }
 .social-icons-color-black.social-icons-style-regular .sqs-use--icon {
-	fill: #222;
+	fill: rgb(152,135,119);
 }
 .social-icons-color-black.social-icons-style-regular .sqs-svg-icon--list:hover .sqs-use--icon {
-	fill: rgba(34, 34, 34, 0.4);
+	fill: rgba(152, 135, 119, 0.4);
 }
 .social-icons-color-black.social-icons-style-regular .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon {
-	fill: #222;
+	fill: rgb(152,135,119);
 }
 .social-icons-color-black.social-icons-style-border .sqs-svg-icon--wrapper {
 	border-color: rgb(34, 34, 34);
