@@ -15478,3 +15478,17 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
 	color:rgb(225,160,142);
 	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
+#imageLogo
+{
+    background: url("./imgs/arquidromo.png");
+    transition:background-image 0.1s ease-in-out, color 0.1s ease-in-out;
+    width:auto; 
+    height:25px; 
+    display: block; 
+    margin: 0 auto;
+}
+#imageLogo:hover
+{
+    background: url("./imgs/arquidromo2.png");
+    transition:background-image 0.1s ease-in-out, color 0.1s ease-in-out;
+}
