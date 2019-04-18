@@ -13596,10 +13596,13 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
 	color: rgb(0, 0, 0);
 }
 .sqs-block-summary-v2 a:link {
-	color: rgb(0, 0, 0);
+	color: rgb(178, 122, 85);
 }
 .sqs-block-summary-v2 a:visited {
-	color: rgb(0, 0, 0);
+	color: rgb(178, 122, 85);
+}
+.sqs-block-summary-v2 a:hover {
+	color: rgb(231, 150, 129);
 }
 .sqs-block-summary-v2 .summary-metadata-item {
 	color: rgb(102, 102, 102);
