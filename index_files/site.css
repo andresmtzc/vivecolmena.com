@@ -15480,14 +15480,14 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
 }
 #imageLogo
 {
-    width:auto; 
-    height:25px; 
     display: block; 
     margin: 0 auto;
 }
 #imageLogo img {
+	height:25px; 
   position:absolute;
-  left:0;
+  transform:translateX(-50%);
+  left:50%;
   -webkit-transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
   -o-transition: opacity 0.1s ease-in-out;
