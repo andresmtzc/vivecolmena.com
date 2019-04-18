@@ -10582,7 +10582,7 @@ body:not(.button-style-default) .sqs-editable-button-layout:hover {
 	opacity: 1;
 }
 body:not(.button-style-default) .sqs-editable-button {
-	border-color: rgb(178, 122, 85); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+	border-color: rgb(178, 122, 85); color: rgb(255, 255, 255); background-color: rgb(231, 150, 129);
 }
 body:not(.button-style-default) .sqs-editable-button-color {
 	border-color: rgb(231, 150, 129); color: rgb(255, 255, 255); background-color: rgb(231, 150, 129);
