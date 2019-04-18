@@ -5559,10 +5559,10 @@ body:not(.event-thumbnails):not(.event-date-label) .eventlist-column-info {
 	fill: rgb(152,135,119);
 }
 .social-icons-color-black.social-icons-style-regular .sqs-svg-icon--list:hover .sqs-use--icon {
-	fill: rgba(152, 135, 119, 0.4);
+	fill: rgb(152,135,119);
 }
 .social-icons-color-black.social-icons-style-regular .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon {
-	fill: rgb(152,135,119);
+	fill: rgb(225,160,142);
 }
 .social-icons-color-black.social-icons-style-border .sqs-svg-icon--wrapper {
 	border-color: rgb(34, 34, 34);
@@ -15469,4 +15469,10 @@ body:not(.sqs-edit-mode-active) #page-body-wrapper {
 }
 body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
 	padding: 0px; left: 50%; width: 90vw !important; position: relative; transform: translateX(-50%) !important; -webkit-transform: translatex(50%);
+}
+.links {
+	color:rgb(152,135,119);
+}
+.links:hover {
+	color:rgb(225,160,142);
 }
