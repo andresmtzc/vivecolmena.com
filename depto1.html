@@ -98,7 +98,7 @@ window.onload = function()
  var msInterval = INTERVAL * 1000;
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
- document.getElementById('counter').innerHTML = '~' + count.toFixed(2) + ' MDP';
+ document.getElementById('counter').innerHTML = count.toFixed(2) + ' MDP';
  setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = '~' + count.toFixed(2) + ' MDP';", msInterval);
 
 }
@@ -554,14 +554,14 @@ data-block-type="47">
 
 
 
-<P style="text-align: center; white-space: pre-wrap; color:rgb(78,82,59); font-size:14px;"><b>Precio</b></P>
+<P style="text-align: center; white-space: pre-wrap; color:rgb(78,82,59); font-size:14px;"><b>PRECIO</b></P>
 <P style="text-align: center; white-space: pre-wrap; color:rgb(78,82,59);"><EM id="counter" style="text-align: center; white-space: pre-wrap;"></EM></P>
   
   <br>
 <table style="color:rgb(78,82,59); border-collapse: separate; border-spacing: 20px 0; margin-left:auto; margin-right:auto; ">
   <tr>
-  <th>Crédito</th>
-  <th>Contado</th>
+  <th>CRÉDITO</th>
+  <th>CONTADO</th>
 
   </tr>
   <tr>
