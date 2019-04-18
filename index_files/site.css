@@ -10624,7 +10624,7 @@ body:not(.button-style-default).button-style-outline .sqs-editable-button-color 
 	color: rgb(0, 0, 0); background-color: transparent;
 }
 body:not(.button-style-default).button-style-outline .sqs-editable-button:hover {
-	color: rgb(255, 255, 255); background-color: rgb(250, 0, 0);
+	color: rgb(255, 255, 255); background-color: rgb(231, 150, 129); border-color: rgb(231, 150, 129);
 }
 body:not(.button-style-default).button-style-outline .sqs-editable-button-color:hover {
 	color: rgb(255, 255, 255); background-color: rgb(0, 250, 0);
