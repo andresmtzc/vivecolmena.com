@@ -15518,7 +15518,7 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
   font-size:1.5vh;
   line-height:1.5vh;
   text-align:left;
-  font-family: '"Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial"';
+  font-family: "Bahnschrift Regular", "Bahnschrift", "Roboto", "Arial";
   -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;    
   box-sizing: border-box;  
