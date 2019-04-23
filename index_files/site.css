@@ -15088,7 +15088,7 @@ body:not(.collection-type-gallery).has-promoted-gallery .promoted-gallery-wrappe
 	display: none !important;
 }
 a:link {
-	color: rgb(0, 0, 0); font-weight: bold; text-decoration: underline;
+	color: rgb(178, 122, 85); font-weight: bold; text-decoration: underline;
 }
 .collection-539319bbe4b0f06b37cb52ba a:link {
 	font-weight: normal; text-decoration: none;
