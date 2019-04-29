@@ -86,7 +86,7 @@ window.onload = function()
 
 -->
 <SCRIPT type="text/javascript">
-var START_DATE = new Date("April 18, 2019 10:35:00"); // put in the starting date here
+var START_DATE = new Date("April 29, 2019 10:35:00"); // put in the starting date here
 var INTERVAL = 10; // in seconds (21 dias)
 var INCREMENT = 0.031208; // increase per tick
 var START_VALUE = 5.35; // initial value when it's the start date
@@ -99,7 +99,7 @@ window.onload = function()
  var now = new Date();
  count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
  document.getElementById('counter').innerHTML = count.toFixed(2) + ' MDP';
- setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = '~' + count.toFixed(2) + ' MDP';", msInterval);
+ setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = count.toFixed(2) + ' MDP';", msInterval);
 
 }
 </SCRIPT>
