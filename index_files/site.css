@@ -15482,7 +15482,7 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
 	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 .links:hover {
-	color:rgb(225,160,142);
+	color:rgb(231,150,129);
 	transition:background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 #imageLogo
