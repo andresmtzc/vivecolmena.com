@@ -11935,7 +11935,7 @@ body {
 	line-height: 1.6em; letter-spacing: 0.65px; font-family: proxima-nova; font-size: 10pt; font-style: normal; font-weight: 400;
 }
 .html-block a:not(.sqs-block-button-element) {
-	color: rgb(0, 0, 0); text-decoration: none;
+	color: rgb(178, 122, 85); text-decoration: none;
 }
 .markdown-block a:not(.sqs-block-button-element) {
 	color: rgb(0, 0, 0); text-decoration: none;
@@ -11974,7 +11974,7 @@ body {
 	color: rgb(0, 0, 0); text-decoration: none;
 }
 .html-block a:not(.sqs-block-button-element):visited {
-	color: rgb(0, 0, 0); text-decoration: none;
+	color: rgb(178, 122, 85); text-decoration: none;
 }
 .markdown-block a:not(.sqs-block-button-element):visited {
 	color: rgb(0, 0, 0); text-decoration: none;
