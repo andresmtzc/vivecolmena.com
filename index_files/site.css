@@ -15534,8 +15534,9 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
     background-size:100%;
     right:16px;
     bottom:16px;
-    z-index:999999;"
+    z-index:999999;
 }
+
 @media only screen and (max-width: 640px) {
     .wha {
     width:70px;
