@@ -15523,3 +15523,24 @@ body:not(.sqs-edit-mode-active) #block-yui_3_17_2_3_1497560862283_16532 {
   -moz-box-sizing: border-box;    
   box-sizing: border-box;  
 }
+
+.wha {
+	width:60px;
+	height:60px;
+    display: flex;
+    position:fixed;
+    cursor: pointer;
+    background-image: url('imgs/whapp120.png');
+    background-size:100%;
+    right:16px;
+    bottom:16px;
+    z-index:999999;"
+}
+@media only screen and (max-width: 640px) {
+    .wha {
+    width:70px;
+    height:70px;
+    background-size:100%;
+
+    }
+}
